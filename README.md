@@ -16,50 +16,17 @@ The project demonstrates how to build, wrap, and ship a production-ready AI agen
 - 🔄 **Session Management** — Stateful multi-turn conversations via ADK's built-in session handling
 - 📦 **Containerized** — Fully Dockerized for consistent, reproducible builds and deployments
 
+
 ## Tech Stack
-
-| Layer | Technology |
-| **AI Model** | Google Gemini (via ADK) |
-| **Language** | Python 3.11+ |
-| **Serving** | ADK API Server (FastAPI-based) |
-| **Containerization** | Docker |
-| **Cloud Platform** | Google Cloud Platform (GCP) |
-| **Deployment** | Google Cloud Run |
-| **Region** | `us-central1`|
-
-
- Project Structure
-adkui/
-├── Agent0/          # Base agent
-├── Agent1/          # Agent with Google Search tool
-│   └── root_agent.yaml
-├── deploycloudrun.py
-└── .gitignore
-
-⚙️ Setup & Run Locally
-
-# Create virtual environment
-pip install uv
-uv venv
-source .venv/bin/activate
-
-# Install dependencies
-uv pip install google-adk==1.22.1 python-dotenv
-
-# Create .env file
-cat <<ENV > .env
-GOOGLE_GENAI_USE_VERTEXAI=1
-GOOGLE_CLOUD_PROJECT=your-project-id
-GOOGLE_CLOUD_LOCATION=us-central1
-IMAGEN_MODEL=imagen-3.0-generate-002
-GENAI_MODEL=gemini-2.5-flash
-ENV
-
-# Run locally
-adk web
-☁️ Deploy to Cloud Run
-python3 deploycloudrun.py
-
+Layer	Technology
+Agent Framework	Google Agent Development Kit (ADK)
+AI Model	Google Gemini (via ADK)
+Language	Python 3.11+
+Serving	ADK API Server (FastAPI-based)
+Containerization	Docker
+Cloud Platform	Google Cloud Platform (GCP)
+Deployment	Google Cloud Run
+Region	us-central1
 
 
 ## Credits 
