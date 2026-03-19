@@ -38,10 +38,6 @@ adkui/
 
 ⚙️ Setup & Run Locally
 
-# Clone the repo
-git clone https://github.com/vamshiiyer/adk-agent-codevipassana.git
-cd adk-agent-codevipassana
-
 # Create virtual environment
 pip install uv
 uv venv
