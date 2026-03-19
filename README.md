@@ -18,16 +18,16 @@ The project demonstrates how to build, wrap, and ship a production-ready AI agen
 
 
 ## Tech Stack
-Layer	Technology
-Agent Framework	Google Agent Development Kit (ADK)
-AI Model	Google Gemini (via ADK)
-Language	Python 3.11+
-Serving	ADK API Server (FastAPI-based)
-Containerization	Docker
-Cloud Platform	Google Cloud Platform (GCP)
-Deployment	Google Cloud Run
-Region	us-central1
 
+| Technology | Purpose |
+|---|---|
+| Google ADK | Agent framework |
+| Gemini 2.5 Flash | LLM model |
+| Vertex AI | AI platform |
+| Imagen 3.0 | Image generation |
+| Cloud Run | Production deployment |
+| Python | Custom tools |
+| YAML | Agent configuration |
 
 ## Credits 
 Build during Google [Code Vipassana](https://rsvp.withgoogle.com/events/cv) Season 14 
