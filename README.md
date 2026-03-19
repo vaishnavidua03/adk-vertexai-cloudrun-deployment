@@ -42,7 +42,7 @@ adkui/
 ## ⚙️ Setup & Run Locally
 ```bash
 # Clone the repo
-git clone https://github.com/vamshiiyer/adk-agent-codevipassana.git
+git clone https://github.com/vaishnavidua03/adk-vertexai-cloudrun-deployment.git
 cd adk-agent-codevipassana
 
 # Create virtual environment
